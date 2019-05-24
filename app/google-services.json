@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "43378275025",
+    "firebase_url": "https://tutorx-539d8.firebaseio.com",
+    "project_id": "tutorx-539d8",
+    "storage_bucket": "tutorx-539d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43378275025:android:de3d272ebdf219e1",
+        "android_client_info": {
+          "package_name": "com.sreyans.tutorx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43378275025-k7tm5e49trm8mbitbf2be844o3veu8j3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sreyans.tutorx",
+            "certificate_hash": "d748c56c3e5d2095cbc3030012ab15a55008e821"
+          }
+        },
+        {
+          "client_id": "43378275025-u3rqrspfbuuufahjaiarfksgcactt4k0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ5fQzZGXO121N5VxGncQqhet7F3FQlRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43378275025-u3rqrspfbuuufahjaiarfksgcactt4k0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

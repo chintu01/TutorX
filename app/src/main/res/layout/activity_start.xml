@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F10E"
+    android:orientation="vertical"
+    tools:context=".Intro.StartActivity">
+
+    <LinearLayout
+        android:id="@+id/l"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginBottom="288dp"
+        android:alpha="0.8"
+        android:background="#F634FA62"
+        android:layerType="none"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/startActivityTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="You Are a ?"
+            android:textAlignment="center"
+            android:textColor="#0923CF"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/teacherbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C930E4"
+            android:padding="20dp"
+            android:text="Teacher"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/studentbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C930E4"
+            android:padding="20dp"
+            android:onClick="StudentButton"
+            android:text="Student"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
